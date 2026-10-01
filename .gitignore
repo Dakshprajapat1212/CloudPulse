@@ -1,0 +1,15 @@
+# Node dependencies
+node_modules/
+dist/
+build/
+.env
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# OS / Logs
+.DS_Store
+*.log
