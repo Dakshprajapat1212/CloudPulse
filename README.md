@@ -1,4 +1,4 @@
-# ⚡ CloudPulse — Enterprise Cloud Incident & SRE Alert Operations Platform
+# ⚡ CloudPulse — Enterprise Cloud Incident & SRE Alert Operations Platform//
 
 ![CloudPulse Architecture](https://img.shields.io/badge/Architecture-Distributed_Microservices-0284c7)
 ![Build Status](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-emerald)
