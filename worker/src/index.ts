@@ -18,6 +18,7 @@ const dbPool = new Pool({
   database: process.env.DB_NAME || 'cloudpulse_db',
   user: process.env.DB_USER || 'cloudpulse_admin',
   password: process.env.DB_PASSWORD || 'cloudpulse_password',
+  ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false,
 });
 
 const redis = new Redis({
